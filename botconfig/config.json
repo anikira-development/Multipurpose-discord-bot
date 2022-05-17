@@ -1,30 +1,30 @@
 {
-    "token": "GET from: https://discord.com/developers/applications",
-    "prefix": "//",
+    "token": "",
+    "prefix": "-",
     "ownerIDS": [
         "930368463497740328"
     ],
     "fnbr": "GET from: https://fnbr.co",
     "fortnitetracker": "GET from: https://fortnitetracker.com",
-    "memer_api": "GET from: https://discord.gg/Mc2FudJkgP",
+    "memer_api": "bkofMgZ2lne",
     "status": {
-        "text": "{prefix}help | on {guildcount} Servers, with {membercount} Members | Played: {songsplayed} Songs",
-        "text2": "By: discord.gg/dcdev",
-        "type": "PLAYING",
-        "url": "https://twitch.tv/milratodiscordbot"
+        "text": "{prefix}help ",
+        "text2": "at Anikira",
+        "type": "STREAMING",
+        "url": "https://twitch.tv/kairu_roar"
     },
     "clientsettings": {
         "nodes": [
             {
-                "host": "localhost",
-                "port": 2333,
-                "password": "youshallnotpass"
+                "host": "n1.lavalink.milrato.com",
+                "port": 10450,
+                "password": "discord.gg/milrato"
             }
         ]
     },
     "spotify": {
-        "clientSecret": "GET from: https://developers.spotify.com",
-        "clientID": "GET from: https://developers.spotify.com"
+        "clientSecret": "053469ffeb3844079fab734ebf3090c2",
+        "clientID": "bf5ee2a72bae40ffadc71a47280e5ff9"
     },
     "settings": {
         "COMMENT": "time_delay 0 === insta leave",
@@ -36,13 +36,13 @@
             "enabled": true,
             "time_delay": 30000
         },
-        "selfDeaf": true
+        "selfDeaf": false
     },
     "lyricssettings": {
         "lyrics_finder": true,
         "ksoft_api": {
             "use_this_instead": true,
-            "api_key": "DISABLED"
+            "api_key": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ"
         }
     }
 }

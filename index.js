@@ -140,6 +140,8 @@ function requirehandlers() {
     });
 } requirehandlers();
 
+// 24/7
+require('./anikira')();
 
 /**********************************************************
  * @param {9} Login_to_the_Bot
