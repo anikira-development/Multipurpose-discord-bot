@@ -119,7 +119,7 @@ module.exports = {
         let button_back = new MessageButton().setStyle('SUCCESS').setCustomId('1').setEmoji("833802907509719130").setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.back))
         let button_home = new MessageButton().setStyle('DANGER').setCustomId('2').setEmoji("🏠").setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.home))
         let button_forward = new MessageButton().setStyle('SUCCESS').setCustomId('3').setEmoji('832598861813776394').setLabel(handlemsg(client.la[ls].cmds.info.help.buttons.forward))
-        let button_tutorial = new MessageButton().setStyle('LINK').setEmoji("840260133686870036").setLabel("Tutorial").setURL("https://youtu.be/E0R7d8gS908")
+        let button_tutorial = new MessageButton().setStyle('LINK').setEmoji("943738879448604713").setLabel("Website").setURL("https://anikira.weebly.com")
         let menuOptions = [
           {
             label: "Overview",
@@ -270,22 +270,19 @@ module.exports = {
           //.setFooter("Page Overview\n"+ client.user.username, client.user.displayAvatarURL())
           .setFooter({ text: "Page Overview\n" + client.user.username, iconURL: client.user.displayAvatarURL() })
           .setTitle(`Information about __${client.user.username}__`)
-          .addField(":muscle: **__My Features__**",
+          .setImage("https://media.discordapp.net/attachments/944254194414678026/957499856216260658/fe5d0f9753e28f4bde7936beddf179957cae932f.png")
+          .addField("<a:AK_sparkle_diamond:945255961826836481> **__My Features__**",
             `>>> **58+ Systems**, like: <:twitter:840255600851812393> **Twitter-** & <:Youtube:840260133686870036> **Youtube-Auto-Poster** 
 **Application-**, Ticket-, **Welcome-Images-** and Reaction Role-, ... Systems
-:notes: An advanced <:Spotify:846090652231663647> **Music System** with **Audio Filtering**
+:notes: An advanced <:AK_SPOTIFY:943307853974884392> **Music System** with **Audio Filtering**
 :video_game: Many **Minigames** and :joystick: **Fun** Commands (150+)
 :no_entry_sign: **Administration** and **Auto-Moderation** and way much more!`)
-          .addField(":question: **__How do you use me?__**",
-            `>>> \`${prefix}setup\` and react with the Emoji for the right action,
-but you can also do \`${prefix}setup-SYSTEM\` e.g. \`${prefix}setup-welcome\``)
-          .addField(":chart_with_upwards_trend: **__STATS:__**",
+          .addField("<:AK_STAFF:943100203106447390> **__STATS:__**",
             `>>> :gear: **${client.commands.map(a => a).length} Commands**
 :file_folder: on **${client.guilds.cache.size} Guilds**
 ⌚️ **${duration(client.uptime).map(i => `\`${i}\``).join("︲")} Uptime**
 📶 **\`${Math.floor(client.ws.ping)}ms\` Ping**
-<:MilratoDevelopment:900389724936609842>  Made by [**Milrato Development**](https://discord.gg/milrato)`)
-          .addField("How to get help?", `>>> **\` 1. Way \`** *Use the Buttons, to swap the Pages*\n**\` 2. Way \`** *Use the Menu to select all Help Pages, you want to display*\n**\` 3. Way \`** *Watch the Youtube Tutorial*`)
+<:AK_DEVELOPER:943100160119046175>  Made by [**Milrato**](https://discord.gg/milrato) and [**Anikira Development**](https://discord.gg/95VBEcSmkS) `)
 
         let err = false;
         //Send message with buttons
